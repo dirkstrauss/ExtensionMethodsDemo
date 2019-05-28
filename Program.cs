@@ -10,7 +10,7 @@ namespace ExtensionMethodDemo
     {
         static void Main(string[] args)
         {
-            string sValue = "15A";
+            var sValue = "15";
             if (sValue.ToInt())
             {
                 Console.WriteLine("Valid Integer");
@@ -20,7 +20,7 @@ namespace ExtensionMethodDemo
                 Console.WriteLine("Not a valid Integer");
             }
 
-            Console.ReadLine();
+            _ = Console.ReadLine();
         }
     }
 }
